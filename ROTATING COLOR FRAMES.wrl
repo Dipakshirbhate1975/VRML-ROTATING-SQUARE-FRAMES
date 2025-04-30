@@ -1,0 +1,884 @@
+#VRML V2.0 utf8
+WorldInfo {
+ title "ROTATING COLOR FRAMES BY DR DIPAK V SHIRBHATE"
+ info ["This Web3D Content was created with Vivaty Studio, a Web3D authoring tool"
+ "www.mediamachines.com"]
+}
+## Vizthumbnail  Thumb_ROTATING_COLOR_FRAMES_wrl36832621588141255.jpg
+DEF Import_Untitled_import_wrl Group {
+ children [
+  NavigationInfo {
+   avatarSize [
+    .25 1.6 .75
+   ]
+   visibilityLimit 0
+   speed 1
+   headlight TRUE
+   type ["EXAMINE"
+   "ANY"]
+  }
+  DEF VP1 Viewpoint {
+   description "Front"
+   jump TRUE
+   fieldOfView 0.785
+   position 0 0 2
+   orientation 0 0 1 0
+  }
+  DEF dad_Background1 Transform {
+   translation .26133 .3049 -.62711
+   children [
+    DEF Background1 Background {
+     skyAngle [
+     ]
+     skyColor [
+      0 0 0
+     ]
+     groundAngle [
+     ]
+     groundColor [
+      0 0 0
+     ]
+    }
+   ]
+  }
+  DEF Group1 Group {
+   children [
+    DEF Sensor1 TouchSensor {
+    }
+    DEF dad_A_0 Transform {
+     translation -.35735 .6111 0
+     center .35735 -.6111 0
+     children [
+      DEF A_0 Shape {
+       appearance Appearance {
+        material DEF Red Material {
+         ambientIntensity 0.200
+         shininess 0.200
+         diffuseColor 1 0 0
+        }
+       }
+       geometry DEF A_0_Geo IndexedFaceSet {
+        creaseAngle 0.000
+        coordIndex [
+          0 11 10 -1 
+          0 15 11 -1 
+          2 10 1 -1 
+          2 0 10 -1 
+          3 2 1 -1 
+          3 4 2 -1 
+          11 4 3 -1 
+          11 15 4 -1 
+          5 13 8 -1 
+          7 13 5 -1 
+          7 6 13 -1 
+          12 6 7 -1 
+          12 14 6 -1 
+          9 8 13 -1 
+          9 12 8 -1 
+          9 14 12 -1 
+          7 11 12 -1 
+          7 10 11 -1 
+          5 10 7 -1 
+          5 1 10 -1 
+          8 1 5 -1 
+          8 3 1 -1 
+          12 3 8 -1 
+          12 11 3 -1 
+          14 0 6 -1 
+          14 15 0 -1 
+          6 2 13 -1 
+          6 0 2 -1 
+          13 4 9 -1 
+          13 2 4 -1 
+          9 15 14 -1 
+          9 4 15 -1 
+        ]
+        coord DEF A_0_Coord Coordinate {
+         point [
+          1.25735 -1.5111 .45348
+          1.35735 .3889 .45348
+          1.25735 .2889 .45348
+          -.64265 .3889 .45348
+          -.54265 .2889 .45348
+          1.35735 .3889 .25348
+          1.25735 -1.5111 .25348
+          1.35735 -1.6111 .25348
+          -.64265 .3889 .25348
+          -.54265 .2889 .25348
+          1.35735 -1.6111 .45348
+          -.64265 -1.6111 .45348
+          -.64265 -1.6111 .25348
+          1.25735 .2889 .25348
+          -.54265 -1.5111 .25348
+          -.54265 -1.5111 .45348
+         ]
+        }
+       }
+      }
+     ]
+    }
+    DEF TimeSensor1 TimeSensor {
+     cycleInterval 10.000
+     loop TRUE
+     startTime -1.000
+    }
+   ]
+  }
+  DEF dad_Group2 Transform {
+   translation 0 0 -.4
+   children [
+    DEF TimeSensor2 TimeSensor {
+     cycleInterval 11.000
+     loop TRUE
+     startTime -1.000
+    }
+    DEF dad_A_1 Transform {
+     translation -.35735 .6111 0
+     center .35735 -.6111 0
+     children [
+      DEF A_1 Shape {
+       appearance Appearance {
+        material DEF Green Material {
+         ambientIntensity 0.200
+         shininess 0.200
+         diffuseColor 0 1 0
+        }
+       }
+       geometry DEF A_1_Geo IndexedFaceSet {
+        creaseAngle 0.000
+        coordIndex [
+          0 11 10 -1 
+          0 15 11 -1 
+          2 10 1 -1 
+          2 0 10 -1 
+          3 2 1 -1 
+          3 4 2 -1 
+          11 4 3 -1 
+          11 15 4 -1 
+          5 13 8 -1 
+          7 13 5 -1 
+          7 6 13 -1 
+          12 6 7 -1 
+          12 14 6 -1 
+          9 8 13 -1 
+          9 12 8 -1 
+          9 14 12 -1 
+          7 11 12 -1 
+          7 10 11 -1 
+          5 10 7 -1 
+          5 1 10 -1 
+          8 1 5 -1 
+          8 3 1 -1 
+          12 3 8 -1 
+          12 11 3 -1 
+          14 0 6 -1 
+          14 15 0 -1 
+          6 2 13 -1 
+          6 0 2 -1 
+          13 4 9 -1 
+          13 2 4 -1 
+          9 15 14 -1 
+          9 4 15 -1 
+        ]
+        coord DEF A_1_Coord Coordinate {
+         point [
+          1.25735 -1.5111 .45348
+          1.35735 .3889 .45348
+          1.25735 .2889 .45348
+          -.64265 .3889 .45348
+          -.54265 .2889 .45348
+          1.35735 .3889 .25348
+          1.25735 -1.5111 .25348
+          1.35735 -1.6111 .25348
+          -.64265 .3889 .25348
+          -.54265 .2889 .25348
+          1.35735 -1.6111 .45348
+          -.64265 -1.6111 .45348
+          -.64265 -1.6111 .25348
+          1.25735 .2889 .25348
+          -.54265 -1.5111 .25348
+          -.54265 -1.5111 .45348
+         ]
+        }
+       }
+      }
+     ]
+    }
+   ]
+  }
+  DEF dad_Group3 Transform {
+   translation 0 0 -.8
+   children [
+    DEF TimeSensor3 TimeSensor {
+     cycleInterval 12.000
+     loop TRUE
+     startTime -1.000
+    }
+    DEF dad_A_2 Transform {
+     translation -.35735 .6111 0
+     center .35735 -.6111 0
+     children [
+      DEF A_2 Shape {
+       appearance Appearance {
+        material DEF Blue Material {
+         ambientIntensity 0.200
+         shininess 0.200
+         diffuseColor 0 0 1
+        }
+       }
+       geometry DEF A_2_Geo IndexedFaceSet {
+        creaseAngle 0.000
+        coordIndex [
+          0 11 10 -1 
+          0 15 11 -1 
+          2 10 1 -1 
+          2 0 10 -1 
+          3 2 1 -1 
+          3 4 2 -1 
+          11 4 3 -1 
+          11 15 4 -1 
+          5 13 8 -1 
+          7 13 5 -1 
+          7 6 13 -1 
+          12 6 7 -1 
+          12 14 6 -1 
+          9 8 13 -1 
+          9 12 8 -1 
+          9 14 12 -1 
+          7 11 12 -1 
+          7 10 11 -1 
+          5 10 7 -1 
+          5 1 10 -1 
+          8 1 5 -1 
+          8 3 1 -1 
+          12 3 8 -1 
+          12 11 3 -1 
+          14 0 6 -1 
+          14 15 0 -1 
+          6 2 13 -1 
+          6 0 2 -1 
+          13 4 9 -1 
+          13 2 4 -1 
+          9 15 14 -1 
+          9 4 15 -1 
+        ]
+        coord DEF A_2_Coord Coordinate {
+         point [
+          1.25735 -1.5111 .45348
+          1.35735 .3889 .45348
+          1.25735 .2889 .45348
+          -.64265 .3889 .45348
+          -.54265 .2889 .45348
+          1.35735 .3889 .25348
+          1.25735 -1.5111 .25348
+          1.35735 -1.6111 .25348
+          -.64265 .3889 .25348
+          -.54265 .2889 .25348
+          1.35735 -1.6111 .45348
+          -.64265 -1.6111 .45348
+          -.64265 -1.6111 .25348
+          1.25735 .2889 .25348
+          -.54265 -1.5111 .25348
+          -.54265 -1.5111 .45348
+         ]
+        }
+       }
+      }
+     ]
+    }
+   ]
+  }
+  DEF dad_Group4 Transform {
+   translation 0 0 -1.2
+   children [
+    DEF TimeSensor4 TimeSensor {
+     cycleInterval 13.000
+     loop TRUE
+     startTime -1.000
+    }
+    DEF dad_A_3 Transform {
+     translation -.35735 .6111 0
+     center .35735 -.6111 0
+     children [
+      DEF A_3 Shape {
+       appearance Appearance {
+        material DEF Yellow Material {
+         ambientIntensity 0.200
+         shininess 0.200
+         diffuseColor 1 1 0
+        }
+       }
+       geometry DEF A_3_Geo IndexedFaceSet {
+        creaseAngle 0.000
+        coordIndex [
+          0 11 10 -1 
+          0 15 11 -1 
+          2 10 1 -1 
+          2 0 10 -1 
+          3 2 1 -1 
+          3 4 2 -1 
+          11 4 3 -1 
+          11 15 4 -1 
+          5 13 8 -1 
+          7 13 5 -1 
+          7 6 13 -1 
+          12 6 7 -1 
+          12 14 6 -1 
+          9 8 13 -1 
+          9 12 8 -1 
+          9 14 12 -1 
+          7 11 12 -1 
+          7 10 11 -1 
+          5 10 7 -1 
+          5 1 10 -1 
+          8 1 5 -1 
+          8 3 1 -1 
+          12 3 8 -1 
+          12 11 3 -1 
+          14 0 6 -1 
+          14 15 0 -1 
+          6 2 13 -1 
+          6 0 2 -1 
+          13 4 9 -1 
+          13 2 4 -1 
+          9 15 14 -1 
+          9 4 15 -1 
+        ]
+        coord DEF A_3_Coord Coordinate {
+         point [
+          1.25735 -1.5111 .45348
+          1.35735 .3889 .45348
+          1.25735 .2889 .45348
+          -.64265 .3889 .45348
+          -.54265 .2889 .45348
+          1.35735 .3889 .25348
+          1.25735 -1.5111 .25348
+          1.35735 -1.6111 .25348
+          -.64265 .3889 .25348
+          -.54265 .2889 .25348
+          1.35735 -1.6111 .45348
+          -.64265 -1.6111 .45348
+          -.64265 -1.6111 .25348
+          1.25735 .2889 .25348
+          -.54265 -1.5111 .25348
+          -.54265 -1.5111 .45348
+         ]
+        }
+       }
+      }
+     ]
+    }
+   ]
+  }
+  DEF dad_Group5 Transform {
+   translation 0 0 -1.6
+   children [
+    DEF TimeSensor5 TimeSensor {
+     cycleInterval 14.000
+     loop TRUE
+     startTime -1.000
+    }
+    DEF dad_A_4 Transform {
+     translation -.35735 .6111 0
+     center .35735 -.6111 0
+     children [
+      DEF A_4 Shape {
+       appearance Appearance {
+        material DEF Cyan Material {
+         ambientIntensity 0.200
+         shininess 0.200
+         diffuseColor 0 1 1
+        }
+       }
+       geometry DEF A_4_Geo IndexedFaceSet {
+        creaseAngle 0.000
+        coordIndex [
+          0 11 10 -1 
+          0 15 11 -1 
+          2 10 1 -1 
+          2 0 10 -1 
+          3 2 1 -1 
+          3 4 2 -1 
+          11 4 3 -1 
+          11 15 4 -1 
+          5 13 8 -1 
+          7 13 5 -1 
+          7 6 13 -1 
+          12 6 7 -1 
+          12 14 6 -1 
+          9 8 13 -1 
+          9 12 8 -1 
+          9 14 12 -1 
+          7 11 12 -1 
+          7 10 11 -1 
+          5 10 7 -1 
+          5 1 10 -1 
+          8 1 5 -1 
+          8 3 1 -1 
+          12 3 8 -1 
+          12 11 3 -1 
+          14 0 6 -1 
+          14 15 0 -1 
+          6 2 13 -1 
+          6 0 2 -1 
+          13 4 9 -1 
+          13 2 4 -1 
+          9 15 14 -1 
+          9 4 15 -1 
+        ]
+        coord DEF A_4_Coord Coordinate {
+         point [
+          1.25735 -1.5111 .45348
+          1.35735 .3889 .45348
+          1.25735 .2889 .45348
+          -.64265 .3889 .45348
+          -.54265 .2889 .45348
+          1.35735 .3889 .25348
+          1.25735 -1.5111 .25348
+          1.35735 -1.6111 .25348
+          -.64265 .3889 .25348
+          -.54265 .2889 .25348
+          1.35735 -1.6111 .45348
+          -.64265 -1.6111 .45348
+          -.64265 -1.6111 .25348
+          1.25735 .2889 .25348
+          -.54265 -1.5111 .25348
+          -.54265 -1.5111 .45348
+         ]
+        }
+       }
+      }
+     ]
+    }
+   ]
+  }
+  DEF dad_Group6 Transform {
+   translation 0 0 -2
+   children [
+    DEF TimeSensor6 TimeSensor {
+     cycleInterval 15.000
+     loop TRUE
+     startTime -1.000
+    }
+    DEF dad_A_5 Transform {
+     translation -.35735 .6111 0
+     center .35735 -.6111 0
+     children [
+      DEF A_5 Shape {
+       appearance Appearance {
+        material DEF Purple Material {
+         ambientIntensity 0.200
+         shininess 0.200
+         diffuseColor .9176 0 .874
+        }
+       }
+       geometry DEF A_5_Geo IndexedFaceSet {
+        creaseAngle 0.000
+        coordIndex [
+          0 11 10 -1 
+          0 15 11 -1 
+          2 10 1 -1 
+          2 0 10 -1 
+          3 2 1 -1 
+          3 4 2 -1 
+          11 4 3 -1 
+          11 15 4 -1 
+          5 13 8 -1 
+          7 13 5 -1 
+          7 6 13 -1 
+          12 6 7 -1 
+          12 14 6 -1 
+          9 8 13 -1 
+          9 12 8 -1 
+          9 14 12 -1 
+          7 11 12 -1 
+          7 10 11 -1 
+          5 10 7 -1 
+          5 1 10 -1 
+          8 1 5 -1 
+          8 3 1 -1 
+          12 3 8 -1 
+          12 11 3 -1 
+          14 0 6 -1 
+          14 15 0 -1 
+          6 2 13 -1 
+          6 0 2 -1 
+          13 4 9 -1 
+          13 2 4 -1 
+          9 15 14 -1 
+          9 4 15 -1 
+        ]
+        coord DEF A_5_Coord Coordinate {
+         point [
+          1.25735 -1.5111 .45348
+          1.35735 .3889 .45348
+          1.25735 .2889 .45348
+          -.64265 .3889 .45348
+          -.54265 .2889 .45348
+          1.35735 .3889 .25348
+          1.25735 -1.5111 .25348
+          1.35735 -1.6111 .25348
+          -.64265 .3889 .25348
+          -.54265 .2889 .25348
+          1.35735 -1.6111 .45348
+          -.64265 -1.6111 .45348
+          -.64265 -1.6111 .25348
+          1.25735 .2889 .25348
+          -.54265 -1.5111 .25348
+          -.54265 -1.5111 .45348
+         ]
+        }
+       }
+      }
+     ]
+    }
+   ]
+  }
+  DEF dad_Group7 Transform {
+   translation 0 0 -2.4
+   children [
+    DEF TimeSensor7 TimeSensor {
+     cycleInterval 16.000
+     loop TRUE
+     startTime -1.000
+    }
+    DEF dad_A_6 Transform {
+     translation -.35735 .6111 0
+     center .35735 -.6111 0
+     children [
+      DEF A_6 Shape {
+       appearance Appearance {
+        material DEF Rust Material {
+         ambientIntensity 0.200
+         shininess 0.200
+         diffuseColor .69 .47 .46
+        }
+       }
+       geometry DEF A_6_Geo IndexedFaceSet {
+        creaseAngle 0.000
+        coordIndex [
+          0 11 10 -1 
+          0 15 11 -1 
+          2 10 1 -1 
+          2 0 10 -1 
+          3 2 1 -1 
+          3 4 2 -1 
+          11 4 3 -1 
+          11 15 4 -1 
+          5 13 8 -1 
+          7 13 5 -1 
+          7 6 13 -1 
+          12 6 7 -1 
+          12 14 6 -1 
+          9 8 13 -1 
+          9 12 8 -1 
+          9 14 12 -1 
+          7 11 12 -1 
+          7 10 11 -1 
+          5 10 7 -1 
+          5 1 10 -1 
+          8 1 5 -1 
+          8 3 1 -1 
+          12 3 8 -1 
+          12 11 3 -1 
+          14 0 6 -1 
+          14 15 0 -1 
+          6 2 13 -1 
+          6 0 2 -1 
+          13 4 9 -1 
+          13 2 4 -1 
+          9 15 14 -1 
+          9 4 15 -1 
+        ]
+        coord DEF A_6_Coord Coordinate {
+         point [
+          1.25735 -1.5111 .45348
+          1.35735 .3889 .45348
+          1.25735 .2889 .45348
+          -.64265 .3889 .45348
+          -.54265 .2889 .45348
+          1.35735 .3889 .25348
+          1.25735 -1.5111 .25348
+          1.35735 -1.6111 .25348
+          -.64265 .3889 .25348
+          -.54265 .2889 .25348
+          1.35735 -1.6111 .45348
+          -.64265 -1.6111 .45348
+          -.64265 -1.6111 .25348
+          1.25735 .2889 .25348
+          -.54265 -1.5111 .25348
+          -.54265 -1.5111 .45348
+         ]
+        }
+       }
+      }
+     ]
+    }
+   ]
+  }
+  DEF dad_Group8 Transform {
+   translation 0 0 -2.8
+   children [
+    DEF TimeSensor8 TimeSensor {
+     cycleInterval 17.000
+     loop TRUE
+     startTime -1.000
+    }
+    DEF dad_A_7 Transform {
+     translation -.35735 .6111 0
+     center .35735 -.6111 0
+     children [
+      DEF A_7 Shape {
+       appearance Appearance {
+        material DEF White Material {
+         ambientIntensity 0.200
+         shininess 0.200
+         diffuseColor 1 1 1
+        }
+       }
+       geometry DEF A_7_Geo IndexedFaceSet {
+        creaseAngle 0.000
+        coordIndex [
+          0 11 10 -1 
+          0 15 11 -1 
+          2 10 1 -1 
+          2 0 10 -1 
+          3 2 1 -1 
+          3 4 2 -1 
+          11 4 3 -1 
+          11 15 4 -1 
+          5 13 8 -1 
+          7 13 5 -1 
+          7 6 13 -1 
+          12 6 7 -1 
+          12 14 6 -1 
+          9 8 13 -1 
+          9 12 8 -1 
+          9 14 12 -1 
+          7 11 12 -1 
+          7 10 11 -1 
+          5 10 7 -1 
+          5 1 10 -1 
+          8 1 5 -1 
+          8 3 1 -1 
+          12 3 8 -1 
+          12 11 3 -1 
+          14 0 6 -1 
+          14 15 0 -1 
+          6 2 13 -1 
+          6 0 2 -1 
+          13 4 9 -1 
+          13 2 4 -1 
+          9 15 14 -1 
+          9 4 15 -1 
+        ]
+        coord DEF A_7_Coord Coordinate {
+         point [
+          1.25735 -1.5111 .45348
+          1.35735 .3889 .45348
+          1.25735 .2889 .45348
+          -.64265 .3889 .45348
+          -.54265 .2889 .45348
+          1.35735 .3889 .25348
+          1.25735 -1.5111 .25348
+          1.35735 -1.6111 .25348
+          -.64265 .3889 .25348
+          -.54265 .2889 .25348
+          1.35735 -1.6111 .45348
+          -.64265 -1.6111 .45348
+          -.64265 -1.6111 .25348
+          1.25735 .2889 .25348
+          -.54265 -1.5111 .25348
+          -.54265 -1.5111 .45348
+         ]
+        }
+       }
+      }
+     ]
+    }
+   ]
+  }
+  DEF dad_Group9 Transform {
+   translation 0 0 -3.2
+   children [
+    DEF TimeSensor9 TimeSensor {
+     cycleInterval 18.000
+     loop TRUE
+     startTime -1.000
+    }
+    DEF dad_A_8 Transform {
+     translation -.35735 .6111 0
+     center .35735 -.6111 0
+     children [
+      DEF A_8 Shape {
+       appearance Appearance {
+        material DEF material0 Material {
+         ambientIntensity 1.000
+         shininess 0.500
+         diffuseColor .50196 .50196 1
+         specularColor 1 1 1
+        }
+       }
+       geometry DEF A_8_Geo IndexedFaceSet {
+        creaseAngle 0.000
+        coordIndex [
+          0 11 10 -1 
+          0 15 11 -1 
+          2 10 1 -1 
+          2 0 10 -1 
+          3 2 1 -1 
+          3 4 2 -1 
+          11 4 3 -1 
+          11 15 4 -1 
+          5 13 8 -1 
+          7 13 5 -1 
+          7 6 13 -1 
+          12 6 7 -1 
+          12 14 6 -1 
+          9 8 13 -1 
+          9 12 8 -1 
+          9 14 12 -1 
+          7 11 12 -1 
+          7 10 11 -1 
+          5 10 7 -1 
+          5 1 10 -1 
+          8 1 5 -1 
+          8 3 1 -1 
+          12 3 8 -1 
+          12 11 3 -1 
+          14 0 6 -1 
+          14 15 0 -1 
+          6 2 13 -1 
+          6 0 2 -1 
+          13 4 9 -1 
+          13 2 4 -1 
+          9 15 14 -1 
+          9 4 15 -1 
+        ]
+        coord DEF A_8_Coord Coordinate {
+         point [
+          1.25735 -1.5111 .45348
+          1.35735 .3889 .45348
+          1.25735 .2889 .45348
+          -.64265 .3889 .45348
+          -.54265 .2889 .45348
+          1.35735 .3889 .25348
+          1.25735 -1.5111 .25348
+          1.35735 -1.6111 .25348
+          -.64265 .3889 .25348
+          -.54265 .2889 .25348
+          1.35735 -1.6111 .45348
+          -.64265 -1.6111 .45348
+          -.64265 -1.6111 .25348
+          1.25735 .2889 .25348
+          -.54265 -1.5111 .25348
+          -.54265 -1.5111 .45348
+         ]
+        }
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
+DEF TimeSensor1_rot0 OrientationInterpolator {
+ key [
+  0 .5 1 
+ ]
+ keyValue [
+  0 0 1 0 0 0 1 3.14 0 0 1 6.28 
+ ]
+}
+DEF TimeSensor2_rot0 OrientationInterpolator {
+ key [
+  0 .5 1 
+ ]
+ keyValue [
+  0 0 1 0 0 0 1 3.14 0 0 1 6.28 
+ ]
+}
+DEF TimeSensor3_rot0 OrientationInterpolator {
+ key [
+  0 .5 1 
+ ]
+ keyValue [
+  0 0 1 0 0 0 1 3.14 0 0 1 6.28 
+ ]
+}
+DEF TimeSensor4_rot0 OrientationInterpolator {
+ key [
+  0 .5 1 
+ ]
+ keyValue [
+  0 0 1 0 0 0 1 3.14 0 0 1 6.28 
+ ]
+}
+DEF TimeSensor5_rot0 OrientationInterpolator {
+ key [
+  0 .5 1 
+ ]
+ keyValue [
+  0 0 1 0 0 0 1 3.14 0 0 1 6.28 
+ ]
+}
+DEF TimeSensor6_rot0 OrientationInterpolator {
+ key [
+  0 .5 1 
+ ]
+ keyValue [
+  0 0 1 0 0 0 1 3.14 0 0 1 6.28 
+ ]
+}
+DEF TimeSensor7_rot0 OrientationInterpolator {
+ key [
+  0 .5 1 
+ ]
+ keyValue [
+  0 0 1 0 0 0 1 3.14 0 0 1 6.28 
+ ]
+}
+DEF TimeSensor8_rot0 OrientationInterpolator {
+ key [
+  0 .5 1 
+ ]
+ keyValue [
+  0 0 1 0 0 0 1 3.14 0 0 1 6.28 
+ ]
+}
+DEF TimeSensor9_rot0 OrientationInterpolator {
+ key [
+  0 .5 1 
+ ]
+ keyValue [
+  0 0 1 0 0 0 1 3.14 0 0 1 6.28 
+ ]
+}
+ROUTE Sensor1.touchTime TO TimeSensor1.startTime
+ROUTE Sensor1.touchTime TO TimeSensor2.startTime
+ROUTE Sensor1.touchTime TO TimeSensor3.startTime
+ROUTE Sensor1.touchTime TO TimeSensor4.startTime
+ROUTE Sensor1.touchTime TO TimeSensor5.startTime
+ROUTE Sensor1.touchTime TO TimeSensor6.startTime
+ROUTE Sensor1.touchTime TO TimeSensor7.startTime
+ROUTE Sensor1.touchTime TO TimeSensor8.startTime
+ROUTE Sensor1.touchTime TO TimeSensor9.startTime
+ROUTE TimeSensor1.fraction_changed TO TimeSensor1_rot0.set_fraction
+ROUTE TimeSensor1_rot0.value_changed TO dad_A_0.set_rotation
+ROUTE TimeSensor2.fraction_changed TO TimeSensor2_rot0.set_fraction
+ROUTE TimeSensor2_rot0.value_changed TO dad_A_1.set_rotation
+ROUTE TimeSensor3.fraction_changed TO TimeSensor3_rot0.set_fraction
+ROUTE TimeSensor3_rot0.value_changed TO dad_A_2.set_rotation
+ROUTE TimeSensor4.fraction_changed TO TimeSensor4_rot0.set_fraction
+ROUTE TimeSensor4_rot0.value_changed TO dad_A_3.set_rotation
+ROUTE TimeSensor5.fraction_changed TO TimeSensor5_rot0.set_fraction
+ROUTE TimeSensor5_rot0.value_changed TO dad_A_4.set_rotation
+ROUTE TimeSensor6.fraction_changed TO TimeSensor6_rot0.set_fraction
+ROUTE TimeSensor6_rot0.value_changed TO dad_A_5.set_rotation
+ROUTE TimeSensor7.fraction_changed TO TimeSensor7_rot0.set_fraction
+ROUTE TimeSensor7_rot0.value_changed TO dad_A_6.set_rotation
+ROUTE TimeSensor8.fraction_changed TO TimeSensor8_rot0.set_fraction
+ROUTE TimeSensor8_rot0.value_changed TO dad_A_7.set_rotation
+ROUTE TimeSensor9.fraction_changed TO TimeSensor9_rot0.set_fraction
+ROUTE TimeSensor9_rot0.value_changed TO dad_A_8.set_rotation
